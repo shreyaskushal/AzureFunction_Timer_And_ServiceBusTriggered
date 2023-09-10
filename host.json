@@ -1,0 +1,15 @@
+{
+    "version": "2.0",
+    "logging": {
+        "logLevel": {
+            "ProcessUserData": "Information"
+        },
+        "applicationInsights": {
+            "samplingSettings": {
+                "isEnabled": true,
+                "excludedTypes": "Request"
+            },
+            "enableLiveMetricsFilters": true
+        }
+    }
+}
