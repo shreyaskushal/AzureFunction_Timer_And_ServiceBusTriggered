@@ -19,7 +19,7 @@ namespace ProcessUserData
 		}
 
 		[FunctionName("ReadUserDataAndQueueToServiceBus")]
-		public void Run([TimerTrigger("0 */1 * * * *")] TimerInfo myTimer)
+		public void Run([TimerTrigger("0 */15 * * * *")] TimerInfo myTimer)
 		{
 			try
 			{
